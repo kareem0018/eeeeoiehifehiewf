@@ -60,13 +60,7 @@ if (message.content === '!spam') {
       }
 });
 
-bot1.on('message', message => {
-  
-  if (message.content === 'trans4') {
 
-message.channel.send('#credit <@474573718967025665> 5000')
-}
-});
 
 bot1.on('message', message => {
   if (message.author.bot) return;
@@ -120,13 +114,7 @@ if (message.content === '!spam') {
 });
 
 
-bot2.on('message', message => {
-  
-  if (message.content === 'trans5') {
 
-message.channel.send('#credit <@474573718967025665> 5000')
-}
-});
 
 bot2.on('message', message => {
   if (message.author.bot) return;
@@ -181,13 +169,7 @@ if (message.content === '!spam') {
 
 
 
-bot3.on('message', message => {
-  
-  if (message.content === 'trans6') {
 
-message.channel.send('#credit <@474573718967025665> 5000')
-}
-});
 
 bot3.on('message', message => {
   if (message.author.bot) return;
