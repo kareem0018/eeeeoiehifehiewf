@@ -59,6 +59,26 @@ if (message.content === '!spam') {
         }
       }
 });
+
+bot1.on('message', message => {
+  
+  if (message.content === 'trans4') {
+
+message.channel.send('#credit <@474573718967025665> 5000')
+}
+});
+
+bot1.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`say1 <words>`);
+if (command == "say4") {
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+
 bot1.login("NTA4MzQ4OTk0ODcxODg1ODM1.DsBuLw.Ue_GvPSuIySeSr98vMSHDLii6ts")
 
 
@@ -99,6 +119,29 @@ if (message.content === '!spam') {
       }
 });
 
+
+bot2.on('message', message => {
+  
+  if (message.content === 'trans5') {
+
+message.channel.send('#credit <@474573718967025665> 5000')
+}
+});
+
+bot2.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`say1 <words>`);
+if (command == "say5") {
+message.channel.send(args.join("  "))
+    message.delete();
+  }
+});
+
+
+
+
 bot2.login("NTA4MzQ5OTEzMzE1MTQ3Nzc2.DsBuTA.qfobUoJlJDBwWQi8Kv9xl8YvjyI")
 
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -133,6 +176,28 @@ if (message.content === '!spam') {
 
         }
       }
+});
+
+
+
+
+bot3.on('message', message => {
+  
+  if (message.content === 'trans6') {
+
+message.channel.send('#credit <@474573718967025665> 5000')
+}
+});
+
+bot3.on('message', message => {
+  if (message.author.bot) return;
+  let command = message.content.split(" ")[0];
+  let args = message.content.split(" ").slice(1);
+  if(!args) return message.channel.send(`say1 <words>`);
+if (command == "say6") {
+message.channel.send(args.join("  "))
+    message.delete();
+  }
 });
 
 
